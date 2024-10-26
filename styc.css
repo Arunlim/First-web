@@ -1,0 +1,80 @@
+/* .red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 200px;
+}
+.blue{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 100px;
+}
+.yellow{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 100px;
+    bottom: 200px;
+}
+*********Using Inline-block property*/
+ /* .red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 200px;
+    display: inline-block;
+}
+.blue{
+    background-color: rgb(47, 0, 255);
+    height: 100px;
+    width: 100px;
+   display: inline-block;
+   position: relative;
+   right: 100px;
+    
+}
+.yellow{
+    background-color: rgb(199, 220, 9);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+   right: 100px;
+} */
+/* Relative means adding the margin with respect to orginal positioning
+Absolute: means adding the margin with respect to orignal parent block (which may be the blank web page)  */
+/*****Using absolute ********* */
+body{
+    margin:0;
+}
+.red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+
+}
+.blue{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}.yellow{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    
+}
+h1{
+    margin: 0;
+}
