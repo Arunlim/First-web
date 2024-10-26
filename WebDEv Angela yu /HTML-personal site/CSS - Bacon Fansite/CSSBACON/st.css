@@ -1,0 +1,35 @@
+/* Maintain the heirarchy order in css property */
+/* Tag Selectors */
+h1{
+    color: red;
+   font-size: 46px;
+  
+
+}
+p{
+    color: rgb(157, 27, 118);
+}
+/* Hover means img lai mouse cursor ley touch hudako tesko nature */
+ img:hover{
+    height: 200px;
+    width: 30%;
+    background-color: gold;
+} 
+/********* Class selectors *********/
+.Bacon{
+    background-color: green;
+}
+.Broccoli{
+    background-color: red;
+}
+/********* ID selectors *********/
+#heading{
+    color: blue;
+}
+.circular{
+   border-radius: 100%;
+}
+/* Diff between id and selectors 
+id=Specfic not more than one can be used and also cannot be repeated
+class= Can be used multiple times.
+There are also some pseudo class such as :hover  */
